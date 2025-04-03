@@ -624,6 +624,7 @@ header ul a {
     outline: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    resize: none;
 }
 
 .contact-box textarea {
@@ -633,8 +634,9 @@ header ul a {
     height: 150px;
     border: none;
     outline: none;
+    resize: none;
     max-width: 80%;
-    position: absolute;
+    position: static;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
