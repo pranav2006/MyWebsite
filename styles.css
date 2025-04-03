@@ -636,7 +636,6 @@ header ul a {
     outline: none;
     resize: none;
     max-width: 80%;
-    position: static;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
