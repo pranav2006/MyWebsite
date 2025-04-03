@@ -1,0 +1,10 @@
+
+import time
+
+print("My Hobbies:")
+
+print("Dance")
+print("Playing Basketball")
+print("Reading Books")
+
+
