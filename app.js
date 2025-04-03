@@ -11,3 +11,11 @@ close.addEventListener("click", function () {
     sideBar.classList.remove("open-sidebar"); // Fix: Remove open class
     sideBar.classList.add("close-sidebar");
 });
+<script>
+    document.querySelector(".scroll-down").addEventListener("click", function() {
+        window.scrollBy({
+            top: window.innerHeight, // Scrolls down by one full viewport height
+            behavior: "smooth" // Enables smooth scrolling
+        })
+    });
+</script>
